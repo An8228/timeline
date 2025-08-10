@@ -1,0 +1,80 @@
+#title{
+	color : lightpink;
+	font-size : 50px;
+	text-align : center;
+	background : #2b1304;
+}
+h2{
+	font-size : 50px;
+	text-align : center;
+	font-family : "Brush Script MT", cursive;
+}
+h3{
+	text-align : justify;
+	font-size : 24px;
+}
+.navbar{
+	display : flex;
+	background-color : #2b1304;
+	align-items : center;
+	justify-content : center;
+}
+.navbar a {
+  color: lightpink;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #e31956;
+  color: #2b1304;
+}
+.row {  
+  display: flex;
+  flex-direction : row;
+  justify-content : center;
+}
+.side {
+  flex: 30%;
+  background-color: #ed9aa1;
+  padding: 20px;
+}
+.main {
+  flex: 70%;
+  background-color: lightpink;
+  padding: 20px;
+}
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+#img1{
+	padding : 24px;
+}
+#img2{
+	padding : 24px;
+}
+#img3{
+	padding : 24px;
+}
+#img4{
+	padding : 24px;
+}
+#img5{
+	padding : 24px;
+}
+#img6{
+	padding : 24px;
+}
+#img7{
+	padding : 24px;
+}
+h4{
+	font-size : 24px;
+	text-align : justify;
+}
+h5{
+	font-size : 30px;
+	text-align : justify;
+}
